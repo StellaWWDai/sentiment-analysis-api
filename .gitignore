@@ -1,0 +1,39 @@
+# Environments
+venv/
+.env
+
+# Interview Notes (personal)
+INTERVIEW_NOTES.md
+
+# Dataset (too large for GitHub - download link in README)
+trainingandtestdata/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Django
+api/db.sqlite3
+
+# API specific
+api/media/
+api/static/
+
+# Editor/IDE
+.vscode/
+.idea/
+.claude/
