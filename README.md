@@ -22,6 +22,22 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## 1.1 Dataset Download
+
+The dataset is not included in this repository due to size constraints. Download it from:
+
+**Sentiment140 Dataset**: [Download from Google Drive](https://docs.google.com/file/d/0B04GJPshIjmPRnZManQwWEdTZjg/edit)
+
+After downloading, extract and place the files in a `trainingandtestdata/` directory:
+
+```
+trainingandtestdata/
+├── training.1600000.processed.noemoticon.csv   (Training data - 1.6M tweets)
+└── testdata.manual.2009.06.14.csv              (Test data - 498 tweets)
+```
+
+**Note**: The pre-trained model files (`models/model.joblib` and `models/vectorizer.joblib`) are included in this repository, so you can run the API immediately without training.
+
 ## 2. Model Training (If needed)
 
 The trained Logistic Regression model is chosen for deployment because it offers excellent baseline accuracy, outputs probabilities natively, and is computationally lightweight for a synchronous API.

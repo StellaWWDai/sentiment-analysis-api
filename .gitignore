@@ -2,11 +2,11 @@
 venv/
 .env
 
-# Interview Notes (personal)
-INTERVIEW_NOTES.md
-
 # Dataset (too large for GitHub - download link in README)
 trainingandtestdata/
+
+# Requirements PDF
+*.pdf
 
 # OS generated files
 .DS_Store
